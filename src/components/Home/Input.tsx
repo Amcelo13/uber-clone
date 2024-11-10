@@ -37,7 +37,13 @@ const Input = (props: any) => {
             placeholder: (provided: any) => ({
                 ...provided,
                 color: '#6B7280'
-            })
+            }),
+        },
+        components: {
+            DropdownIndicator: () => null,
+            // IndicatorSeparator: () => null,
+            // ClearIndicator: () => null,
+            // SingleValue: () => null
         }
     }
 
